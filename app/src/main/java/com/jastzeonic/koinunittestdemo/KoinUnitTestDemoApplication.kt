@@ -23,5 +23,4 @@ val appModule = module {
     factory { ComponentD(get(named("default"))) }
     factory<ComponentInterface> { ComponentB() }
     factory<ComponentInterface>(named("default")) { ComponentB() }
-
 }

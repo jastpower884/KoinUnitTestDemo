@@ -15,7 +15,7 @@ import org.koin.test.KoinTestRule
  * See [testing documentation](http://d.android.com/tools/testing).
  */
 class ExampleUnitTest : KoinTest {
-    val mockModule = module {
+    private val mockModule = module {
         single<ComponentInterface> { ComponentC() }
     }
 
